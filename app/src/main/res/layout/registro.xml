@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="92dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/logocolombia" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomBoldRegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/lets_get_started"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/create_an_account_in_nikola"
+            android:textColor="@color/bt_light_gray"
+            android:textSize="14sp" />
+
+
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/drawable_edittext_background_black"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="40dp"
+            android:gravity="center"
+            android:hint="@string/login_email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/deep_grey"
+            android:textSize="20sp" />
+
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/CodPosta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:drawablePadding="40dp"
+            android:background="@drawable/drawable_edittext_background_black"
+            android:gravity="center"
+            android:hint="@string/login_Password1"
+            android:maxLength="3"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/bt_light_gray"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/et_otp_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:drawablePadding="40dp"
+            android:background="@drawable/drawable_edittext_background_black"
+            android:gravity="center"
+            android:hint="@string/login_Password3"
+            android:maxLength="10"
+            android:paddingLeft="5dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/bt_light_gray"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/identificacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:drawablePadding="40dp"
+            android:background="@drawable/drawable_edittext_background_black"
+            android:drawableLeft="@drawable/ic_share_black_24dp"
+            android:hint="@string/txt_referral_code1"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/deep_grey"
+            android:textSize="20sp" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/user_referral_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:drawablePadding="40dp"
+            android:background="@drawable/drawable_edittext_background_black"
+            android:drawableLeft="@drawable/ic_share_black_24dp"
+            android:hint="@string/txt_referral_code"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/deep_grey"
+            android:textSize="20sp" />
+
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/user_fusername"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/drawable_edittext_background_black"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="40dp"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/user_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:drawablePadding="40dp"
+            android:background="@drawable/drawable_edittext_background_black"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:hint="@string/first_name"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/user_lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/drawable_edittext_background_black"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="40dp"
+            android:hint="@string/last_Name"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/regPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintAnimationEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/bt_light_gray">
+
+            <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+                android:id="@+id/user_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/drawable_edittext_background_black"
+                android:drawableStart="@drawable/ic_lock_open_black_24dp_black"
+                android:drawablePadding="20dp"
+                android:hint="@string/login_Password"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/bt_light_gray"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/termsDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/Generar_numero"
+            android:layout_width="339dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/drawable_edittext_background_black"
+            android:gravity="center"
+            android:hint="@string/login_Password2"
+            android:maxLength="3"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/bt_light_gray"
+            android:textSize="20sp"
+            android:visibility="visible" />
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/recibir_numero"
+            android:layout_width="339dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/drawable_edittext_background_black"
+            android:gravity="center"
+            android:hint="@string/login_Password2"
+            android:maxLength="3"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/bt_light_gray"
+            android:textSize="20sp"
+            android:visibility="visible" />
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/Generar_numero1"
+            android:layout_width="339dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/drawable_edittext_background_black"
+            android:gravity="center"
+            android:hint="@string/login_Password4"
+            android:maxLength="3"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/bt_light_gray"
+            android:textSize="20sp"
+            android:visibility="visible" />
+        <com.nikola.user.NewUtilsAndPref.CustomText.CustomRegularEditView
+            android:id="@+id/recibir_numero1"
+            android:layout_width="339dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/drawable_edittext_background_black"
+            android:gravity="center"
+            android:hint="@string/login_Password8"
+            android:maxLength="3"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/bt_light_gray"
+            android:textSize="20sp"
+            android:visibility="visible" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1.5">
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/rigister_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="50dp"
+            android:background="@color/wallet_blue"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:text="@string/sign_up1"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/rigister_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="50dp"
+            android:background="@color/wallet_blue"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:text="@string/sign_up1"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</ScrollView>

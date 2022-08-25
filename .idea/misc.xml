@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Trabajos/win/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/drawable/account_outline.xml" value="0.133" />
+        <entry key="..\:/Trabajos/win/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/drawable/s_eta_circle.xml" value="0.133" />
+        <entry key="..\:/Trabajos/win/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/login.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/Alvaro.DESKTOP-PAL4866/.gradle/caches/transforms-2/files-2.1/0eebfddbe3a1c547525b64522c0474ce/jetified-commons-0.8.5.4/res/layout/md_preference_custom.xml" value="0.36666666666666664" />
+        <entry key="..\:/apk funcional de colombia/nuevoColombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/drawable/help_circle.xml" value="0.259" />
+        <entry key="..\:/apk funcional de colombia/nuevoColombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/activity_profile.xml" value="0.3546195652173913" />
+        <entry key="..\:/apk funcional de colombia/nuevoColombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/activity_welcome.xml" value="0.3546195652173913" />
+        <entry key="..\:/apk funcional de colombia/nuevoColombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/signup2.xml" value="0.36666666666666664" />
+        <entry key="..\:/apk ok/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/apk ok/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/exit_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/apk ok/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/login.xml" value="0.25" />
+        <entry key="..\:/apk ok/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/registro.xml" value="0.36666666666666664" />
+        <entry key="..\:/apk ok/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/request_fragment.xml" value="0.25364583333333335" />
+        <entry key="..\:/apk ok/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/signup2.xml" value="0.33" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/NuevoR.xml" value="0.24375" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/activity_payments.xml" value="0.26222826086956524" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/activity_wallet_acivity.xml" value="0.26222826086956524" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/activity_welcome.xml" value="0.2554347826086957" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/cancel_request_layout.xml" value="0.26222826086956524" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/creditcard_view.xml" value="0.26222826086956524" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/dialog_add_card.xml" value="0.26222826086956524" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/incompete_payment_dialog.xml" value="0.26222826086956524" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/info_window_dest.xml" value="0.26222826086956524" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/info_window_pickup.xml" value="0.26222826086956524" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/login.xml" value="0.25271739130434784" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/register_fragment.xml" value="0.29257246376811596" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/registro.xml" value="0.33" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/request_layout.xml" value="0.26222826086956524" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/request_loading.xml" value="0.29257246376811596" />
+        <entry key="..\:/win ecuador completo/colombia/smartcar_fcm_new_android_userV1.4/app/src/main/res/layout/signup2.xml" value="0.29257246376811596" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
